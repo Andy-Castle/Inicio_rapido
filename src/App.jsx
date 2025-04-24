@@ -3,6 +3,7 @@ import AboutPage from "./components/About_Page";
 import Styles from "./components/Styles";
 import MostrarDatos from "./components/Mostrar_datos";
 import RenderizadoCondicional from "./components/Renderizado_condicional";
+import RenderizadoDeListas from "./components/RenderizadoDeListas";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <MostrarDatos />
 
       <RenderizadoCondicional />
+
+      <RenderizadoDeListas />
 
       <AboutPage />
     </>
