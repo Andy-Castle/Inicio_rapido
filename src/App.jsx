@@ -1,6 +1,7 @@
 import MyButton from "./components/Button";
 import AboutPage from "./components/About_Page";
 import Styles from "./components/Styles";
+import MostrarDatos from "./components/Mostrar_datos";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <h1>Bienvenido a mi aplicación</h1>
         <MyButton />
       </div>
+
+      <MostrarDatos />
 
       <AboutPage />
     </>
