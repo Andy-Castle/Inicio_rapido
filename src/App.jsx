@@ -1,4 +1,5 @@
 import MyButton from "./components/Button";
+import AboutPage from "./components/About_Page";
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
         <h1>Bienvenido a mi aplicación</h1>
         <MyButton />
       </div>
+
+      <AboutPage />
     </>
   );
 }
